@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:fontFamily="@font/pressstart2pregular"
+                android:text="@string/selector_dialog"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/selectorButton1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/layer1basesprite1"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="105dp" />
+
+            <ImageButton
+                android:id="@+id/selectorButton2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/layer1basesprite1"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="105dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/selectorButton3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/layer1basesprite1"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="105dp" />
+
+            <ImageButton
+                android:id="@+id/selectorButton4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/layer1basesprite1"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="105dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/selectorButton5"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/layer1basesprite1"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="105dp" />
+
+            <ImageButton
+                android:id="@+id/selectorButton6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/layer1basesprite1"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="105dp" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

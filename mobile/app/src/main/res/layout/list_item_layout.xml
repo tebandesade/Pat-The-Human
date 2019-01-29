@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView_flag"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/textView_countryName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/textView_population"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/imageView_flag"
+        android:fontFamily="@font/orbitronregular"
+        android:text="Country Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_population"
+        android:layout_width="372dp"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@+id/imageView_flag"
+        android:layout_toEndOf="@+id/imageView"
+        android:fontFamily="@font/bungeeregular"
+        android:gravity="center_vertical"
+        android:text="100"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@+id/imageView_flag"
+        android:layout_toEndOf="@+id/imageView_flag"
+        app:srcCompat="@drawable/coin" />
+
+    <ImageView
+        android:id="@+id/imageView_community"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@+id/imageView_flag"
+        android:layout_toEndOf="@+id/textView_population"
+        android:visibility="invisible"
+        app:srcCompat="@mipmap/community_icon" />
+</RelativeLayout>

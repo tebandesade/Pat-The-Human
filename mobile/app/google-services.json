@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "592619067953",
+    "firebase_url": "https://patbyfresa.firebaseio.com",
+    "project_id": "patbyfresa",
+    "storage_bucket": "patbyfresa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592619067953:android:f29ae13d65ad71db",
+        "android_client_info": {
+          "package_name": "co.fresa.pat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592619067953-49vl0m0v56j1d6qc74erqoropmqv9l69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.fresa.pat",
+            "certificate_hash": "36a48c58b711b989be7cdf5dad689aa65bf60aa4"
+          }
+        },
+        {
+          "client_id": "592619067953-sa4l8c6hjdqgeuktbl0acautisscetma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbqSUWbeFhvKGyAK9ihHw_Y6M7M80_Dnw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592619067953-sa4l8c6hjdqgeuktbl0acautisscetma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
