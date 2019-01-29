@@ -14,3 +14,5 @@
 ![alt text](https://raw.githubusercontent.com/tebandesade/Pat-The-Human/master/imgs/patland2.png)
 
 ![alt text](https://raw.githubusercontent.com/tebandesade/Pat-The-Human/master/imgs/patland3.png)
+
+### Art by Rafael
